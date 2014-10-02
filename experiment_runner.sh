@@ -61,8 +61,8 @@ function experiment {
 
     #variables
     echo "INFO: set up variables"
-    max_client=64
-    rep=20
+    max_client=32
+    rep=40
 
     #run experiment
     echo "INFO: experiment is running."
