@@ -116,7 +116,7 @@ def single_equation_to_key_value(line):
 def printf(line):
     sys.stdout.write(line.__str__())
 def get_file_list(target_dir):
-    return [ os.path.join(target_dir, file) for file in os.listdir(target_dir) if os.path.isfile(os.path.join(target_dir, file)) ] 
+    return [ os.path.join(target_dir, file) for file in os.listdir(target_dir) if os.path.isfile(os.path.join(target_dir, file)) if "output" in file] 
     
     
 if __name__ == "__main__":
@@ -144,7 +144,6 @@ if __name__ == "__main__":
         print "\tdefault average abort ratio: %.2f" %(default.search("Clients", i)).average("abort_ratio")
         print "\tboost average time: %.2f" %(boost.search("Clients", i)).average("Time")
         print "\tboost average abort ratio: %.2f" %(boost.search("Clients", i)).average("abort_ratio")
-        print default.search("Clients", 1)
         i *= 2
 
 
