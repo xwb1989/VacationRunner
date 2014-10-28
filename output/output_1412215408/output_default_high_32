@@ -1,8 +1,8 @@
 Initializing manager... done.
 Initializing clients... done.
     Transactions        = 4194304
-    Clients             = 1
-    Transactions/client = 4194304
+    Clients             = 32
+    Transactions/client = 131072
     Queries/transaction = 8
     Relations           = 65536
     Query percent       = 10
@@ -10,17 +10,17 @@ Initializing clients... done.
     Percent user        = 80
 TL2 system ready: GV=GV4
 Running clients... done.
-Time = 47.101891
+Time = 64.735448
 Checking tables... done.
 Deallocating memory... done.
 TL2 system shutdown:
-  GCLOCK=0x7E1782 Starts=4194304 Aborts=0
-  Overflows: R=0 W=167 L=0
+  GCLOCK=0x7F197E Starts=36230760 Aborts=32036456
+  Overflows: R=0 W=31944 L=0
 Initializing manager... done.
 Initializing clients... done.
     Transactions        = 4194304
-    Clients             = 1
-    Transactions/client = 4194304
+    Clients             = 32
+    Transactions/client = 131072
     Queries/transaction = 8
     Relations           = 65536
     Query percent       = 10
@@ -28,17 +28,17 @@ Initializing clients... done.
     Percent user        = 80
 TL2 system ready: GV=GV4
 Running clients... done.
-Time = 47.541664
+Time = 68.896649
 Checking tables... done.
 Deallocating memory... done.
 TL2 system shutdown:
-  GCLOCK=0x7E1782 Starts=4194304 Aborts=0
-  Overflows: R=0 W=167 L=0
+  GCLOCK=0x7F84A2 Starts=41461554 Aborts=37267250
+  Overflows: R=0 W=36741 L=0
 Initializing manager... done.
 Initializing clients... done.
     Transactions        = 4194304
-    Clients             = 1
-    Transactions/client = 4194304
+    Clients             = 32
+    Transactions/client = 131072
     Queries/transaction = 8
     Relations           = 65536
     Query percent       = 10
@@ -46,17 +46,17 @@ Initializing clients... done.
     Percent user        = 80
 TL2 system ready: GV=GV4
 Running clients... done.
-Time = 46.636390
+Time = 65.445990
 Checking tables... done.
 Deallocating memory... done.
 TL2 system shutdown:
-  GCLOCK=0x7E1782 Starts=4194304 Aborts=0
-  Overflows: R=0 W=167 L=0
+  GCLOCK=0x7F1080 Starts=35666834 Aborts=31472530
+  Overflows: R=0 W=35181 L=0
 Initializing manager... done.
 Initializing clients... done.
     Transactions        = 4194304
-    Clients             = 1
-    Transactions/client = 4194304
+    Clients             = 32
+    Transactions/client = 131072
     Queries/transaction = 8
     Relations           = 65536
     Query percent       = 10
@@ -64,17 +64,17 @@ Initializing clients... done.
     Percent user        = 80
 TL2 system ready: GV=GV4
 Running clients... done.
-Time = 46.865437
+Time = 66.663505
 Checking tables... done.
 Deallocating memory... done.
 TL2 system shutdown:
-  GCLOCK=0x7E1782 Starts=4194304 Aborts=0
-  Overflows: R=0 W=167 L=0
+  GCLOCK=0x7F3644 Starts=37091656 Aborts=32897352
+  Overflows: R=0 W=36449 L=0
 Initializing manager... done.
 Initializing clients... done.
     Transactions        = 4194304
-    Clients             = 1
-    Transactions/client = 4194304
+    Clients             = 32
+    Transactions/client = 131072
     Queries/transaction = 8
     Relations           = 65536
     Query percent       = 10
@@ -82,17 +82,17 @@ Initializing clients... done.
     Percent user        = 80
 TL2 system ready: GV=GV4
 Running clients... done.
-Time = 46.742156
+Time = 67.895642
 Checking tables... done.
 Deallocating memory... done.
 TL2 system shutdown:
-  GCLOCK=0x7E1782 Starts=4194304 Aborts=0
-  Overflows: R=0 W=167 L=0
+  GCLOCK=0x7F41B4 Starts=38306240 Aborts=34111936
+  Overflows: R=0 W=41741 L=0
 Initializing manager... done.
 Initializing clients... done.
     Transactions        = 4194304
-    Clients             = 1
-    Transactions/client = 4194304
+    Clients             = 32
+    Transactions/client = 131072
     Queries/transaction = 8
     Relations           = 65536
     Query percent       = 10
@@ -100,17 +100,17 @@ Initializing clients... done.
     Percent user        = 80
 TL2 system ready: GV=GV4
 Running clients... done.
-Time = 47.021268
+Time = 63.997036
 Checking tables... done.
 Deallocating memory... done.
 TL2 system shutdown:
-  GCLOCK=0x7E1782 Starts=4194304 Aborts=0
-  Overflows: R=0 W=167 L=0
+  GCLOCK=0x7EF02A Starts=33961699 Aborts=29767395
+  Overflows: R=0 W=45960 L=0
 Initializing manager... done.
 Initializing clients... done.
     Transactions        = 4194304
-    Clients             = 1
-    Transactions/client = 4194304
+    Clients             = 32
+    Transactions/client = 131072
     Queries/transaction = 8
     Relations           = 65536
     Query percent       = 10
@@ -118,17 +118,17 @@ Initializing clients... done.
     Percent user        = 80
 TL2 system ready: GV=GV4
 Running clients... done.
-Time = 47.126102
+Time = 65.287571
 Checking tables... done.
 Deallocating memory... done.
 TL2 system shutdown:
-  GCLOCK=0x7E1782 Starts=4194304 Aborts=0
-  Overflows: R=0 W=167 L=0
+  GCLOCK=0x7F1DB0 Starts=38777520 Aborts=34583216
+  Overflows: R=0 W=31702 L=0
 Initializing manager... done.
 Initializing clients... done.
     Transactions        = 4194304
-    Clients             = 1
-    Transactions/client = 4194304
+    Clients             = 32
+    Transactions/client = 131072
     Queries/transaction = 8
     Relations           = 65536
     Query percent       = 10
@@ -136,17 +136,17 @@ Initializing clients... done.
     Percent user        = 80
 TL2 system ready: GV=GV4
 Running clients... done.
-Time = 47.384627
+Time = 69.240715
 Checking tables... done.
 Deallocating memory... done.
 TL2 system shutdown:
-  GCLOCK=0x7E1782 Starts=4194304 Aborts=0
-  Overflows: R=0 W=167 L=0
+  GCLOCK=0x7F82F8 Starts=43197400 Aborts=39003096
+  Overflows: R=0 W=39124 L=0
 Initializing manager... done.
 Initializing clients... done.
     Transactions        = 4194304
-    Clients             = 1
-    Transactions/client = 4194304
+    Clients             = 32
+    Transactions/client = 131072
     Queries/transaction = 8
     Relations           = 65536
     Query percent       = 10
@@ -154,17 +154,17 @@ Initializing clients... done.
     Percent user        = 80
 TL2 system ready: GV=GV4
 Running clients... done.
-Time = 47.262160
+Time = 70.144193
 Checking tables... done.
 Deallocating memory... done.
 TL2 system shutdown:
-  GCLOCK=0x7E1782 Starts=4194304 Aborts=0
-  Overflows: R=0 W=167 L=0
+  GCLOCK=0x7F53B4 Starts=36703678 Aborts=32509374
+  Overflows: R=0 W=39204 L=0
 Initializing manager... done.
 Initializing clients... done.
     Transactions        = 4194304
-    Clients             = 1
-    Transactions/client = 4194304
+    Clients             = 32
+    Transactions/client = 131072
     Queries/transaction = 8
     Relations           = 65536
     Query percent       = 10
@@ -172,17 +172,17 @@ Initializing clients... done.
     Percent user        = 80
 TL2 system ready: GV=GV4
 Running clients... done.
-Time = 46.871908
+Time = 62.932595
 Checking tables... done.
 Deallocating memory... done.
 TL2 system shutdown:
-  GCLOCK=0x7E1782 Starts=4194304 Aborts=0
-  Overflows: R=0 W=167 L=0
+  GCLOCK=0x7F0F1E Starts=36463942 Aborts=32269638
+  Overflows: R=0 W=24056 L=0
 Initializing manager... done.
 Initializing clients... done.
     Transactions        = 4194304
-    Clients             = 1
-    Transactions/client = 4194304
+    Clients             = 32
+    Transactions/client = 131072
     Queries/transaction = 8
     Relations           = 65536
     Query percent       = 10
@@ -190,17 +190,17 @@ Initializing clients... done.
     Percent user        = 80
 TL2 system ready: GV=GV4
 Running clients... done.
-Time = 46.690131
+Time = 69.714189
 Checking tables... done.
 Deallocating memory... done.
 TL2 system shutdown:
-  GCLOCK=0x7E1782 Starts=4194304 Aborts=0
-  Overflows: R=0 W=167 L=0
+  GCLOCK=0x7F5DB8 Starts=37598754 Aborts=33404450
+  Overflows: R=0 W=39235 L=0
 Initializing manager... done.
 Initializing clients... done.
     Transactions        = 4194304
-    Clients             = 1
-    Transactions/client = 4194304
+    Clients             = 32
+    Transactions/client = 131072
     Queries/transaction = 8
     Relations           = 65536
     Query percent       = 10
@@ -208,17 +208,17 @@ Initializing clients... done.
     Percent user        = 80
 TL2 system ready: GV=GV4
 Running clients... done.
-Time = 46.981372
+Time = 64.884162
 Checking tables... done.
 Deallocating memory... done.
 TL2 system shutdown:
-  GCLOCK=0x7E1782 Starts=4194304 Aborts=0
-  Overflows: R=0 W=167 L=0
+  GCLOCK=0x7F1954 Starts=38607063 Aborts=34412759
+  Overflows: R=0 W=35906 L=0
 Initializing manager... done.
 Initializing clients... done.
     Transactions        = 4194304
-    Clients             = 1
-    Transactions/client = 4194304
+    Clients             = 32
+    Transactions/client = 131072
     Queries/transaction = 8
     Relations           = 65536
     Query percent       = 10
@@ -226,17 +226,17 @@ Initializing clients... done.
     Percent user        = 80
 TL2 system ready: GV=GV4
 Running clients... done.
-Time = 47.031508
+Time = 67.933819
 Checking tables... done.
 Deallocating memory... done.
 TL2 system shutdown:
-  GCLOCK=0x7E1782 Starts=4194304 Aborts=0
-  Overflows: R=0 W=167 L=0
+  GCLOCK=0x7F4FFE Starts=39947611 Aborts=35753307
+  Overflows: R=0 W=34061 L=0
 Initializing manager... done.
 Initializing clients... done.
     Transactions        = 4194304
-    Clients             = 1
-    Transactions/client = 4194304
+    Clients             = 32
+    Transactions/client = 131072
     Queries/transaction = 8
     Relations           = 65536
     Query percent       = 10
@@ -244,17 +244,17 @@ Initializing clients... done.
     Percent user        = 80
 TL2 system ready: GV=GV4
 Running clients... done.
-Time = 47.093328
+Time = 65.480626
 Checking tables... done.
 Deallocating memory... done.
 TL2 system shutdown:
-  GCLOCK=0x7E1782 Starts=4194304 Aborts=0
-  Overflows: R=0 W=167 L=0
+  GCLOCK=0x7F37F0 Starts=38672018 Aborts=34477714
+  Overflows: R=0 W=44059 L=0
 Initializing manager... done.
 Initializing clients... done.
     Transactions        = 4194304
-    Clients             = 1
-    Transactions/client = 4194304
+    Clients             = 32
+    Transactions/client = 131072
     Queries/transaction = 8
     Relations           = 65536
     Query percent       = 10
@@ -262,17 +262,17 @@ Initializing clients... done.
     Percent user        = 80
 TL2 system ready: GV=GV4
 Running clients... done.
-Time = 47.071132
+Time = 64.652991
 Checking tables... done.
 Deallocating memory... done.
 TL2 system shutdown:
-  GCLOCK=0x7E1782 Starts=4194304 Aborts=0
-  Overflows: R=0 W=167 L=0
+  GCLOCK=0x7F1B72 Starts=35569993 Aborts=31375689
+  Overflows: R=0 W=34878 L=0
 Initializing manager... done.
 Initializing clients... done.
     Transactions        = 4194304
-    Clients             = 1
-    Transactions/client = 4194304
+    Clients             = 32
+    Transactions/client = 131072
     Queries/transaction = 8
     Relations           = 65536
     Query percent       = 10
@@ -280,17 +280,17 @@ Initializing clients... done.
     Percent user        = 80
 TL2 system ready: GV=GV4
 Running clients... done.
-Time = 47.400897
+Time = 67.497667
 Checking tables... done.
 Deallocating memory... done.
 TL2 system shutdown:
-  GCLOCK=0x7E1782 Starts=4194304 Aborts=0
-  Overflows: R=0 W=167 L=0
+  GCLOCK=0x7F71DC Starts=40137552 Aborts=35943248
+  Overflows: R=0 W=31224 L=0
 Initializing manager... done.
 Initializing clients... done.
     Transactions        = 4194304
-    Clients             = 1
-    Transactions/client = 4194304
+    Clients             = 32
+    Transactions/client = 131072
     Queries/transaction = 8
     Relations           = 65536
     Query percent       = 10
@@ -298,17 +298,17 @@ Initializing clients... done.
     Percent user        = 80
 TL2 system ready: GV=GV4
 Running clients... done.
-Time = 47.215257
+Time = 68.199891
 Checking tables... done.
 Deallocating memory... done.
 TL2 system shutdown:
-  GCLOCK=0x7E1782 Starts=4194304 Aborts=0
-  Overflows: R=0 W=167 L=0
+  GCLOCK=0x7F712A Starts=41706267 Aborts=37511963
+  Overflows: R=0 W=41348 L=0
 Initializing manager... done.
 Initializing clients... done.
     Transactions        = 4194304
-    Clients             = 1
-    Transactions/client = 4194304
+    Clients             = 32
+    Transactions/client = 131072
     Queries/transaction = 8
     Relations           = 65536
     Query percent       = 10
@@ -316,17 +316,17 @@ Initializing clients... done.
     Percent user        = 80
 TL2 system ready: GV=GV4
 Running clients... done.
-Time = 46.944166
+Time = 71.200813
 Checking tables... done.
 Deallocating memory... done.
 TL2 system shutdown:
-  GCLOCK=0x7E1782 Starts=4194304 Aborts=0
-  Overflows: R=0 W=167 L=0
+  GCLOCK=0x7FC576 Starts=45305943 Aborts=41111639
+  Overflows: R=0 W=49170 L=0
 Initializing manager... done.
 Initializing clients... done.
     Transactions        = 4194304
-    Clients             = 1
-    Transactions/client = 4194304
+    Clients             = 32
+    Transactions/client = 131072
     Queries/transaction = 8
     Relations           = 65536
     Query percent       = 10
@@ -334,17 +334,17 @@ Initializing clients... done.
     Percent user        = 80
 TL2 system ready: GV=GV4
 Running clients... done.
-Time = 46.738283
+Time = 65.669382
 Checking tables... done.
 Deallocating memory... done.
 TL2 system shutdown:
-  GCLOCK=0x7E1782 Starts=4194304 Aborts=0
-  Overflows: R=0 W=167 L=0
+  GCLOCK=0x7F2BB2 Starts=36515745 Aborts=32321441
+  Overflows: R=0 W=33235 L=0
 Initializing manager... done.
 Initializing clients... done.
     Transactions        = 4194304
-    Clients             = 1
-    Transactions/client = 4194304
+    Clients             = 32
+    Transactions/client = 131072
     Queries/transaction = 8
     Relations           = 65536
     Query percent       = 10
@@ -352,9 +352,9 @@ Initializing clients... done.
     Percent user        = 80
 TL2 system ready: GV=GV4
 Running clients... done.
-Time = 46.992327
+Time = 69.228213
 Checking tables... done.
 Deallocating memory... done.
 TL2 system shutdown:
-  GCLOCK=0x7E1782 Starts=4194304 Aborts=0
-  Overflows: R=0 W=167 L=0
+  GCLOCK=0x7F54BA Starts=38048412 Aborts=33854108
+  Overflows: R=0 W=25500 L=0
