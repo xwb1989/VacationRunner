@@ -7,27 +7,26 @@ import datetime
 import logging
 import threading
 
-TL2_DEFAULT = "/home/wenbinx/transactional_memory/vacation-experiment/stamp-mp/tl2"
-TL2_HASHTABLE = "/home/wenbinx/transactional_memory/vacation-experiment/vacation-tl2"
-BOOST = "/home/wenbinx/transactional_memory/vacation-experiment/vacation-boost"
+SKIPLIST_BOOST = "/home/wenbinx/transactional_memory/vacation-experiment/vacation-skiplist"
+SKIPLIST_TL2 = "/home/wenbinx/transactional_memory/vacation-experiment/vacation-skiplist-tl2"
 
 CMD = "/vacation"
 
-max_c = 64
+max_c = 32
 min_c = 1
 
-max_n = 8
+max_n = 32
 min_n = 1
 
 r = 65536
 
 max_q = 100
 min_q = 10
-q_step = 5
+q_step = 10
 
 max_u = 100
 min_u = 10
-u_step = 5
+u_step = 10
 
 num_tx = 65536 * 2
 
@@ -38,13 +37,15 @@ MAX_RETRY = 10
 class Command:
     def __init__(self, cmd):
         self.cmd = cmd
-        self.process = None
+        self.fail = 0
 
     def run(self, timeout):
         def target():
-            self.process = subprocess.Popen(self.cmd, shell=True)
-            self.process.communicate()
-
+            try:
+                self.fail = 0
+                subprocess.check_call(self.cmd, shell=True)
+            except subprocess.CalledProcessError:
+                self.fail = 1
         retry = 0
         while True:
             thread = threading.Thread(target=target) 
@@ -52,11 +53,19 @@ class Command:
             thread.join(timeout)
             if thread.isAlive():
                 logging.info("Timeout, kill cmd: " + self.cmd) 
-                self.process.terminate()
                 subprocess.call("killall -9 vacation", shell=True) #kill the process
+                logging.info("Try to rerun: " + self.cmd) 
                 thread.join()
                 retry += 1
                 if retry >= MAX_RETRY:
+                    logging.info("Exceed MAX_RETRY, experiment quit.")
+                    sys.exit(1)
+            elif self.fail:
+                retry += 1
+                logging.info("Error during running. Gonna rerun current setting.")
+                self.fail = 0
+                if retry >= MAX_RETRY * 2:
+                    logging.info("Failure exceeds MAX_RETRY*2, experiment quit.")
                     sys.exit(1)
             else:
                 break
@@ -107,16 +116,12 @@ if __name__ == "__main__":
         MAX_RETRY = float(sys.argv[3])
 
     print "start running"
-    if opt == "all" or opt == "boost-hashtable":
+    if opt == "all" or opt == "skiplist-boost":
         print("BOOST")
-        output_file = "output/" + today + "/hashtable-boost"
-        run_cmd(BOOST, output_file)
-    if opt == "all" or opt == "tl2-hashtable":
+        output_file = "output/" + today + "/skiplist-boost"
+        run_cmd(SKIPLIST_BOOST, output_file)
+    if opt == "all" or opt == "skiplist-tl2":
         print("TL2")
-        output_file = "output/" + today + "/hashtable-tl2"
-        run_cmd(TL2_HASHTABLE, output_file)
-    if opt == "all" or opt == "tl2-rbtree":
-        print("TL2_DEFAULT")
-        output_file = "output/" + today + "/rbtree-tl2"
-        run_cmd(TL2_DEFAULT, output_file) 
+        output_file = "output/" + today + "/skiplist-tl2"
+        run_cmd(SKIPLIST_TL2, output_file)
     print "done"

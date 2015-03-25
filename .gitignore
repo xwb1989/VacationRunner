@@ -1,1 +1,3 @@
-experiment_log
+logs/
+output/
+error_log
